@@ -3,33 +3,24 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
-    image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
+    title: "My PortFolio Website",
+    description: "A personal portfolio website showcasing my projects, and skills as a web developer.",
+    image: "/projects/project1.jpeg",
+    tags: ["React", "TailwindCSS"],
     demoUrl: "#",
     githubUrl: "#",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "Doctor Search Website",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
+      "A responsive web app for finding and connecting with doctors using HTML/CSS and JavaScript.",
     image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["HTML/CSS","JavaScript", "Node.js", "Express.js", "MongoDB"],
+    demoUrl: "https://finddoctor-frontend.vercel.app",
+    githubUrl: "https://github.com/Prem202920/finddoctor-frontend",
   },
-  {
-    id: 3,
-    title: "E-commerce Platform",
-    description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
-  },
+  
 ];
 
 export const ProjectsSection = () => {
@@ -100,7 +91,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/Prem202920"
           >
             Check My Github <ArrowRight size={16} />
           </a>

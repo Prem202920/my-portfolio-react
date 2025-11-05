@@ -1,11 +1,11 @@
 import {
+  Github,
   Instagram,
   Linkedin,
   Mail,
   MapPin,
   Phone,
   Send,
-  Twitch,
   Twitter,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -56,10 +56,10 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-medium"> Email</h4>
                   <a
-                    href="mailto:hello@gmail.com"
+                    href="mailto: prempatil9650@gmail.com"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    hello@gmail.com
+                    prempatil9650@gmail.com
                   </a>
                 </div>
               </div>
@@ -70,10 +70,10 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-medium"> Phone</h4>
                   <a
-                    href="tel:+11234567890"
+                    href="tel:+91 8767389558"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    +1 (123) 456-7890
+                    +91 8767389558
                   </a>
                 </div>
               </div>
@@ -83,8 +83,8 @@ export const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="font-medium"> Location</h4>
-                  <a className="text-muted-foreground hover:text-primary transition-colors">
-                    Vancouver, BC, Canada
+                  <a href="https://maps.app.goo.gl/JHv2aUjHqFudCEyz9" className="text-muted-foreground hover:text-primary transition-colors">
+                    Pune, Maharashtra, India
                   </a>
                 </div>
               </div>
@@ -96,14 +96,14 @@ export const ContactSection = () => {
                 <a href="#" target="_blank">
                   <Linkedin />
                 </a>
-                <a href="#" target="_blank">
+                <a href="https://twitter.com/liebeOP" target="_blank">
                   <Twitter />
                 </a>
-                <a href="#" target="_blank">
+                <a href="https://www.instagram.com/liebe177013" target="_blank">
                   <Instagram />
                 </a>
-                <a href="#" target="_blank">
-                  <Twitch />
+                <a href="https://github.com/Prem202920" target="_blank">
+                  <Github />
                 </a>
               </div>
             </div>
@@ -130,7 +130,7 @@ export const ContactSection = () => {
                   name="name"
                   required
                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden foucs:ring-2 focus:ring-primary"
-                  placeholder="Pedro Machado..."
+                  placeholder="Isagi Yoichi..."
                 />
               </div>
 
@@ -148,7 +148,7 @@ export const ContactSection = () => {
                   name="email"
                   required
                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden foucs:ring-2 focus:ring-primary"
-                  placeholder="john@gmail.com"
+                  placeholder="johncena@gmail.com"
                 />
               </div>
 
