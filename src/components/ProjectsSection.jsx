@@ -20,7 +20,16 @@ const projects = [
     demoUrl: "https://finddoctor-frontend.vercel.app",
     githubUrl: "https://github.com/Prem202920/finddoctor-frontend",
   },
-  
+  {
+    id: 3,
+    title: "MindBridge - Mental Health Support Platform",
+    description:
+      "A responsive web app for helping individuals find mental health resources and support.",
+    image: "/projects/project3.png",
+    tags: ["React","Tailwind CSS", "Node.js", "Gemini 2.5 Flash", "Firebase"],
+    demoUrl: "https://mindbridge-v2-18fa8.web.app",
+    githubUrl: "https://github.com/prats010/mindbridge-v2",
+  }
 ];
 
 export const ProjectsSection = () => {
